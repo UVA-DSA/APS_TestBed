@@ -1,0 +1,21 @@
+title:17_bitflip_add_glucose
+location//run_simulation.py//#glucose:HOOK#
+fault 1//if t>=21 and t<31://glucose+=32
+fault 2//if t>=21 and t<62://glucose+=32
+fault 3//if t>=21 and t<104://glucose+=32
+fault 4//if t>=71 and t<80://glucose+=32
+fault 5//if t>=71 and t<102://glucose+=32
+fault 6//if t>=71 and t<105://glucose+=32
+fault 7//if t>=86 and t<91://glucose+=32
+fault 8//if t>=86 and t<108://glucose+=32
+fault 9//if t>=86 and t<116://glucose+=32
+fault 10//if t>=24 and t<56://glucose+=64
+fault 11//if t>=24 and t<75://glucose+=64
+fault 12//if t>=24 and t<97://glucose+=64
+fault 13//if t>=31 and t<57://glucose+=64
+fault 14//if t>=31 and t<62://glucose+=64
+fault 15//if t>=31 and t<112://glucose+=64
+fault 16//if t>=98 and t<103://glucose+=64
+fault 17//if t>=98 and t<107://glucose+=64
+fault 18//if t>=98 and t<113://glucose+=64
+Total number of fault cases: 18

@@ -1,0 +1,12 @@
+title:22_minimize_glucose
+location//run_simulation.py//#glucose:HOOK#
+fault 1//if t>=9 and t<19://glucose=80
+fault 2//if t>=9 and t<50://glucose=80
+fault 3//if t>=9 and t<95://glucose=80
+fault 4//if t>=47 and t<66://glucose=80
+fault 5//if t>=47 and t<85://glucose=80
+fault 6//if t>=47 and t<112://glucose=80
+fault 7//if t>=75 and t<106://glucose=80
+fault 8//if t>=75 and t<110://glucose=80
+fault 9//if t>=75 and t<116://glucose=80
+Total number of fault cases: 9

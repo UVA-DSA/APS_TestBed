@@ -1,0 +1,12 @@
+title:21_maximize_glucose
+location//run_simulation.py//#glucose:HOOK#
+fault 1//if t>=22 and t<47://glucose=175
+fault 2//if t>=22 and t<55://glucose=175
+fault 3//if t>=22 and t<87://glucose=175
+fault 4//if t>=70 and t<86://glucose=175
+fault 5//if t>=70 and t<93://glucose=175
+fault 6//if t>=70 and t<113://glucose=175
+fault 7//if t>=89 and t<110://glucose=175
+fault 8//if t>=89 and t<115://glucose=175
+fault 9//if t>=89 and t<120://glucose=175
+Total number of fault cases: 9

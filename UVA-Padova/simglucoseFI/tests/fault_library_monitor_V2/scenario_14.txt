@@ -1,0 +1,12 @@
+title:14_lostconnection_hold_glucose
+location//run_simulation.py//#glucose:HOOK#
+fault 1//if t>=7 and t<27://glucose_refresh=0
+fault 2//if t>=7 and t<64://glucose_refresh=0
+fault 3//if t>=7 and t<100://glucose_refresh=0
+fault 4//if t>=11 and t<27://glucose_refresh=0
+fault 5//if t>=11 and t<83://glucose_refresh=0
+fault 6//if t>=11 and t<108://glucose_refresh=0
+fault 7//if t>=21 and t<25://glucose_refresh=0
+fault 8//if t>=21 and t<64://glucose_refresh=0
+fault 9//if t>=21 and t<88://glucose_refresh=0
+Total number of fault cases: 9

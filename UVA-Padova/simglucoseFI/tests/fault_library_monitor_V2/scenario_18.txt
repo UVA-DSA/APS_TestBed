@@ -1,0 +1,21 @@
+title:18_bitflip_sub_glucose
+location//run_simulation.py//#glucose:HOOK#
+fault 1//if t>=10 and t<30://glucose-=32//if glucose<0://  glucose= 0
+fault 2//if t>=10 and t<69://glucose-=32//if glucose<0://  glucose= 0
+fault 3//if t>=10 and t<93://glucose-=32//if glucose<0://  glucose= 0
+fault 4//if t>=12 and t<37://glucose-=32//if glucose<0://  glucose= 0
+fault 5//if t>=12 and t<83://glucose-=32//if glucose<0://  glucose= 0
+fault 6//if t>=12 and t<91://glucose-=32//if glucose<0://  glucose= 0
+fault 7//if t>=24 and t<28://glucose-=32//if glucose<0://  glucose= 0
+fault 8//if t>=24 and t<67://glucose-=32//if glucose<0://  glucose= 0
+fault 9//if t>=24 and t<117://glucose-=32//if glucose<0://  glucose= 0
+fault 10//if t>=9 and t<32://glucose-=64//if glucose<0://  glucose= 0
+fault 11//if t>=9 and t<79://glucose-=64//if glucose<0://  glucose= 0
+fault 12//if t>=9 and t<107://glucose-=64//if glucose<0://  glucose= 0
+fault 13//if t>=11 and t<44://glucose-=64//if glucose<0://  glucose= 0
+fault 14//if t>=11 and t<54://glucose-=64//if glucose<0://  glucose= 0
+fault 15//if t>=11 and t<90://glucose-=64//if glucose<0://  glucose= 0
+fault 16//if t>=23 and t<31://glucose-=64//if glucose<0://  glucose= 0
+fault 17//if t>=23 and t<63://glucose-=64//if glucose<0://  glucose= 0
+fault 18//if t>=23 and t<112://glucose-=64//if glucose<0://  glucose= 0
+Total number of fault cases: 18

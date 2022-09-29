@@ -1,0 +1,3 @@
+[submodule "OpenAPS-Glucosym-3.9"]
+	path = OpenAPS-Glucosym-3.9
+	url = https://github.com/UVA-DSA/OpenAPS-Glucosym-3.9

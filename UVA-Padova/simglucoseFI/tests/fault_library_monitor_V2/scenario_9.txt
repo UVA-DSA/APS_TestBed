@@ -1,0 +1,12 @@
+title:9_lostconnection_hold_rate
+location//run_simulation.py//#rate:HOOK#
+fault 1//if t>=6 and t<12://rate_refresh=0
+fault 2//if t>=6 and t<55://rate_refresh=0
+fault 3//if t>=6 and t<94://rate_refresh=0
+fault 4//if t>=19 and t<39://rate_refresh=0
+fault 5//if t>=19 and t<83://rate_refresh=0
+fault 6//if t>=19 and t<89://rate_refresh=0
+fault 7//if t>=23 and t<55://rate_refresh=0
+fault 8//if t>=23 and t<62://rate_refresh=0
+fault 9//if t>=23 and t<117://rate_refresh=0
+Total number of fault cases: 9

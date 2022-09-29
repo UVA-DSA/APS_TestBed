@@ -1,0 +1,12 @@
+title:19_maximize_rate
+location//run_simulation.py//#rate:HOOK#
+fault 1//if t>=29 and t<47://action=2
+fault 2//if t>=29 and t<71://action=2
+fault 3//if t>=29 and t<115://action=2
+fault 4//if t>=43 and t<58://action=2
+fault 5//if t>=43 and t<85://action=2
+fault 6//if t>=43 and t<115://action=2
+fault 7//if t>=84 and t<85://action=2
+fault 8//if t>=84 and t<106://action=2
+fault 9//if t>=84 and t<117://action=2
+Total number of fault cases: 9

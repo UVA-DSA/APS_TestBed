@@ -1,0 +1,21 @@
+title:12_bitflip_add_rate
+location//run_simulation.py//#rate:HOOK#
+fault 1//if t>=29 and t<41://action+=0.5
+fault 2//if t>=29 and t<88://action+=0.5
+fault 3//if t>=29 and t<108://action+=0.5
+fault 4//if t>=33 and t<46://action+=0.5
+fault 5//if t>=33 and t<72://action+=0.5
+fault 6//if t>=33 and t<119://action+=0.5
+fault 7//if t>=86 and t<91://action+=0.5
+fault 8//if t>=86 and t<102://action+=0.5
+fault 9//if t>=86 and t<117://action+=0.5
+fault 10//if t>=6 and t<20://action+=1
+fault 11//if t>=6 and t<68://action+=1
+fault 12//if t>=6 and t<120://action+=1
+fault 13//if t>=74 and t<79://action+=1
+fault 14//if t>=74 and t<102://action+=1
+fault 15//if t>=74 and t<116://action+=1
+fault 16//if t>=91 and t<99://action+=1
+fault 17//if t>=91 and t<105://action+=1
+fault 18//if t>=91 and t<117://action+=1
+Total number of fault cases: 18

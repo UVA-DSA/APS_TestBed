@@ -1,0 +1,21 @@
+title:13_bitflip_sub_rate
+location//run_simulation.py//#rate:HOOK#
+fault 1//if t>=10 and t<30://action-=0.5//if action<0://  action= 0
+fault 2//if t>=10 and t<72://action-=0.5//if action<0://  action= 0
+fault 3//if t>=10 and t<83://action-=0.5//if action<0://  action= 0
+fault 4//if t>=12 and t<13://action-=0.5//if action<0://  action= 0
+fault 5//if t>=12 and t<81://action-=0.5//if action<0://  action= 0
+fault 6//if t>=12 and t<117://action-=0.5//if action<0://  action= 0
+fault 7//if t>=29 and t<35://action-=0.5//if action<0://  action= 0
+fault 8//if t>=29 and t<67://action-=0.5//if action<0://  action= 0
+fault 9//if t>=29 and t<100://action-=0.5//if action<0://  action= 0
+fault 10//if t>=9 and t<23://action-=1//if action<0://  action= 0
+fault 11//if t>=9 and t<69://action-=1//if action<0://  action= 0
+fault 12//if t>=9 and t<119://action-=1//if action<0://  action= 0
+fault 13//if t>=11 and t<43://action-=1//if action<0://  action= 0
+fault 14//if t>=11 and t<68://action-=1//if action<0://  action= 0
+fault 15//if t>=11 and t<106://action-=1//if action<0://  action= 0
+fault 16//if t>=25 and t<45://action-=1//if action<0://  action= 0
+fault 17//if t>=25 and t<74://action-=1//if action<0://  action= 0
+fault 18//if t>=25 and t<118://action-=1//if action<0://  action= 0
+Total number of fault cases: 18
