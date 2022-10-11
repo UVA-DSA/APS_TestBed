@@ -2,7 +2,7 @@
 This repository contains a closed-loop testbed for the artificial pancreas system (APS) that evaluates the effectiveness of new control algorithms and other features for the APS in both normal and hazardous environments. The testbed is made up of two APS simulators, UVA/Padova ([1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4454102/)) and Glucosym ([2](https://github.com/Perceptus/GlucoSym)), and a fault injection engine. This repository also includes a dataset we generated with the testbed containing both safe and hazardous data traces from APS.
 
 <p align="center">
-    <img src="./images/testbed_paper_fig2.PNG" alt="overall structure of closed loop APS testbed" width="500"/>
+    <img src="./images/testbed_paper_fig2.png" alt="overall structure of closed loop APS testbed" width="500"/>
 </p>
 
 ## **Main Contributions**
@@ -12,7 +12,7 @@ In this work, we designed a closed-loop testbed that combines state-of-the-art A
 The diagram below shows the basic breakdown of the validation framework.
 
 <p align="center">
-    <img src="./images/testbed_paper_fig4.PNG" alt="overall framework for validation" width="500"/>
+    <img src="./images/testbed_paper_fig4.png" alt="overall framework for validation" width="500"/>
 </p>
 
 ### **Patient Profile Estimation**
@@ -83,7 +83,7 @@ An example simulation step starts with the control program running in glucosym/c
 In our paper, we use the PID-based OpenAPS controller for the Glucosym simulator.
 
 <p align="center">
-    <img src="./images/testbed_paper_fig3.PNG" width="1000" alt="Typical APS Control Structure compared with OpenAPS architecture"/>
+    <img src="./images/testbed_paper_fig3.png" width="1000" alt="Typical APS Control Structure compared with OpenAPS architecture"/>
 </p>
 
 ### **Fault Injection Engine**
