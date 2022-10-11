@@ -96,7 +96,7 @@ The faults that we simulate follow 4 general types shown below based on faults r
 | :---       |    :----   |    :---      |
 | Truncate     | Change output variables to zero value       | Availability attack   |
 | Hold   | Stop refreshing selected input/output variables        | DoS attack      |
-| Max/Mix | Change the value of targeted variables to their maximum or minimum allowed values | Integrity attack, memory fault |
+| Max/Min | Change the value of targeted variables to their maximum or minimum allowed values | Integrity attack, memory fault |
 | Add/Sub | Add or subtract an arbitrary or particular value to a targeted variable | Integrity attack, memory fault |
 
 More information about the fault injection engine can be found [here](https://arxiv.org/pdf/2104.02545.pdf).
