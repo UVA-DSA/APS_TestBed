@@ -7,7 +7,7 @@ This repository contains a closed-loop testbed for the artificial pancreas syste
 
 ## **Main Contributions**
 
-In this work, we designed a closed-loop testbed that combines state-of-the-art APS simulators with a novel fault injection engine. We then developed frameworks for validating that (1) the APS simulators can reasonably reproduce BG traces from clinical trials given the same insulin inputs, initial conditions, and a sufficient number of patient parameters, (2) the control algorithm can generate similar insulin doses to insulin pumps used in clinical trials, and (3) the control algorithm can maintain BG in a safe region more effectively than the basic insulin pump software. The framework for (1) also includes a method for reverse-engineering estimates for patient parameters that are not recorded in clinical trial datasets but are used in the simulators. These validation frameworks can be used to test future simulators and control algorithms. We also provide 2.5 years of simulated data for 20 different diabetic patients with different types of adverse events.
+In this work, we designed a closed-loop testbed that combines state-of-the-art APS simulators with a novel fault injection engine. We then developed frameworks for validating that (1) the APS simulators can reasonably reproduce BG traces from clinical trials given the same insulin inputs, initial conditions, and a sufficient number of patient parameters, (2) the control algorithm can generate similar insulin doses to insulin pumps used in clinical trials, and (3) the control algorithm can maintain BG in a safe region more effectively than the basic insulin pump software. The framework for (1) also includes a method for reverse-engineering estimates for patient parameters that are not recorded in clinical trial datasets but are used in the simulators. These validation frameworks can be used to test future simulators and control algorithms. We also provide **25 years** of simulated data for 20 different diabetic patients with different types of adverse events.
 
 The diagram below shows the basic breakdown of the validation framework.
 
@@ -40,7 +40,7 @@ The APS consists of the following 4 main components that are handled slightly di
 
 ### **UVA/Padova Simulator**
 
-This version of the UVA/Padova simulator is based off of a Python-implementation with the Gym API that can be found [here](https://github.com/jxx123/simglucose).
+This version of the UVA/Padova simulator is based on a Python-implementation with the Gym API.
 
 1.  *CGM Sensor:* located in simglucose/sensor, this is a simple object that gets the true BG value from the patient model and adds noise to it to calculate a realistic sensor reading
 
