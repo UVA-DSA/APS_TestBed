@@ -24,5 +24,5 @@ This repositary contains a python version of UVA/PADOVA Type 1 Diabetes Simulato
     python3 run_Faultinjection_monitor.py 
 
 
-For installment of simulator please refer to https://github.com/jxx123/simglucose.
+This simulator was built on a previous work by integrating an adverse event simultor and upgrading controllers. Please refer to this [link](https://github.com/jxx123/simglucose) if you are interested to the originial simulator.
 
