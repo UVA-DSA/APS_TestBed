@@ -15,6 +15,9 @@ The diagram below shows the basic breakdown of the validation framework.
     <img src="./images/testbed_paper_fig4.png" alt="overall framework for validation" width="500"/>
 </p>
 
+## **How to Cite:** 
+X. Zhou, H. Ren, M. Kouzel, H. Alemzadeh, “Design and Validation of an Open-Source Closed-Loop Testbed for Artificial Pancreas Systems,” in the IEEE/ACM Conf. on Connected Health: Applications, Systems and Engineering Technologies (CHASE), 2022. [Online Available](https://arxiv.org/abs/2208.06479)
+
 ### **Patient Profile Estimation**
 
 Part of our paper was validating whether the APS testbed would yield similar results to real patient data. A publicly-available international diabetes closed-loop trial dataset known as [DCLP3](https://www.nejm.org/doi/full/10.1056/NEJMoa1907863) recorded six-months of time-stamped BG readings, insulin doses, and other relevant data from clinical trials with 168 patients. We randomly chose five patients' data (each six-month long) from the DCLP3 dataset\
@@ -101,5 +104,3 @@ The faults that we simulate follow 4 general types shown below based on faults r
 
 More information about the fault injection engine can be found [here](https://arxiv.org/pdf/2104.02545.pdf).
 
-## **How to Cite:** 
-X. Zhou, H. Ren, M. Kouzel, H. Alemzadeh, “Design and Validation of an Open-Source Closed-Loop Testbed for Artificial Pancreas Systems,” in the IEEE/ACM Conf. on Connected Health: Applications, Systems and Engineering Technologies (CHASE), 2022. [Online Available](https://arxiv.org/abs/2208.06479)
