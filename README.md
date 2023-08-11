@@ -5,6 +5,9 @@ This repository contains a closed-loop testbed for the artificial pancreas syste
     <img src="./images/testbed_paper_fig2.png" alt="overall structure of closed loop APS testbed" width="500"/>
 </p>
 
+## **How to Cite:** 
+X. Zhou, H. Ren, M. Kouzel, H. Alemzadeh, “Design and Validation of an Open-Source Closed-Loop Testbed for Artificial Pancreas Systems,” in the IEEE/ACM Conf. on Connected Health: Applications, Systems and Engineering Technologies (CHASE), 2022. [Online Available](https://arxiv.org/abs/2208.06479)
+
 ## **Main Contributions**
 
 In this work, we designed a closed-loop testbed that combines state-of-the-art APS simulators with a novel fault injection engine. We then developed frameworks for validating that (1) the APS simulators can reasonably reproduce BG traces from clinical trials given the same insulin inputs, initial conditions, and a sufficient number of patient parameters, (2) the control algorithm can generate similar insulin doses to insulin pumps used in clinical trials, and (3) the control algorithm can maintain BG in a safe region more effectively than the basic insulin pump software. The framework for (1) also includes a method for reverse-engineering estimates for patient parameters that are not recorded in clinical trial datasets but are used in the simulators. These validation frameworks can be used to test future simulators and control algorithms. We also provide **25 years** of simulated data for 20 different diabetic patients with different types of adverse events.
@@ -14,9 +17,6 @@ The diagram below shows the basic breakdown of the validation framework.
 <p align="center">
     <img src="./images/testbed_paper_fig4.png" alt="overall framework for validation" width="500"/>
 </p>
-
-## **How to Cite:** 
-X. Zhou, H. Ren, M. Kouzel, H. Alemzadeh, “Design and Validation of an Open-Source Closed-Loop Testbed for Artificial Pancreas Systems,” in the IEEE/ACM Conf. on Connected Health: Applications, Systems and Engineering Technologies (CHASE), 2022. [Online Available](https://arxiv.org/abs/2208.06479)
 
 ### **Patient Profile Estimation**
 
